@@ -2,6 +2,10 @@
 
 export.js is a JavaScript utility that help transfer and download data to CSV format, other formates could be added later. 
 
+#Demo
+[Live demo](http://jsfiddle.net/YLyPL/)
+[export.js with Highchart](http://jsfiddle.net/b4caa/)
+
 ## exportToCsv(data, keys) 
 This function exports to csv, formatted vertically to ease importing it to spreadsheet applications.
 
@@ -38,4 +42,4 @@ if you import this csv to spreadsheet application, the data will look like this:
 
 #Browser support
 if you are using Chrome or Firefox the browser will download it as text file, if you are using IE a new window will pop up 
-and then you could copy and paste the text or you could do right click and then save to a file.
+and then you could copy and paste the text or you could right click on the mouse and then save to a file.
