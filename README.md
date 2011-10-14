@@ -1,20 +1,19 @@
 # export.js 
 
-export.js is a JavaScript utility that help transfer and download data to different formats, now it only exports to CSV  
-format. 
+export.js is a JavaScript utility that help transfer and download data to CSV format, other formates could be added later. 
 
 ## exportToCsv(data, keys) 
-This function export csv formatted vertically to ease importing it to spreadsheet applications.
+This function exports to csv, formatted vertically to ease importing it to spreadsheet applications.
 
-It expect two parameter the first is data which array of string arrays, example: 
+It expect two parameter the first is array of string arrays, example: 
 
         var data = [ ["USA","France"], ["Washington DC", "Paris"] ] ; 
  
-The second parameter is keys which expect array of strings that is associated with the data, example:
+The second is array of strings that is associated with the data, example:
 
         var keys = ["Country","Capital"]; 
 
-Calling <i>exportToCsv(data, keys)</i> the result will be :
+Calling <i>exportToCsv(data, keys)</i> will create a csv that looks like this:
 
 Country,Capital <br />
 USA,Washington DC <br />
@@ -36,3 +35,7 @@ if you import this csv to spreadsheet application, the data will look like this:
         <td>Paris</td> 
     </tr>
 </table>
+
+#Browser support
+if you are using Chrome or Firefox the browser will download it as text file, if you are using IE a new window will pop up 
+and then you could copy and paste the text or you could do right click and then save to a file.
