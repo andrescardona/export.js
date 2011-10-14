@@ -42,4 +42,4 @@ if you import this csv to spreadsheet application, the data will look like this:
 
 #Browser support
 if you are using Chrome or Firefox the browser will download it as text file, if you are using IE a new window will pop up 
-and then you could copy and paste the text or you could right click on the mouse and then save to a file.
+and then you could copy and paste the text or you could right click and choose save to a file.
