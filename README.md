@@ -3,7 +3,7 @@
 export.js is a JavaScript utility that help transfer and download data to CSV format, other formates could be added later. 
 
 #Demo
-[Live demo](http://jsfiddle.net/YLyPL/)
+[Live demo](http://jsfiddle.net/YLyPL/) <br />
 [export.js with Highchart](http://jsfiddle.net/b4caa/)
 
 ## exportToCsv(data, keys) 
