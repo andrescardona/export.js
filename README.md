@@ -1,6 +1,6 @@
 # export.js 
 
-export.js is a JavaScript utility that help transfer and download data to CSV format, other formats could be added later. 
+export.js is a JavaScript utility that help transfer and download data to CSV format, other formats could be added in future releases. 
 
 #Demo
 [Live demo](http://jsfiddle.net/YLyPL/) <br />
